@@ -12,4 +12,7 @@ group :development do
   gem 'tee'
   gem 'webmock'
   gem 'yard'
+  gem 'nokogiri'
+  gem 'rack', '~>1.1'
+  gem 'rspec', :require => 'spec'
 end
